@@ -1,0 +1,10 @@
+@import '../../constants/themes.css';
+
+.text-more {
+    color: #555;
+    font-size: 15px;
+}
+
+.text-more a {
+    color: var(--primary-color);
+}

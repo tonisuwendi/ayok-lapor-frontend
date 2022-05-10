@@ -1,0 +1,14 @@
+@import '../../constants/themes.css';
+
+.container {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    margin: auto;
+    width: 500px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 100%;
+    }
+}
