@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import Button from "../../components/Form/Button";
 import Checkbox from "../../components/Form/Checkbox";
 import FormGroup from "../../components/Form/FormGroup";
-import styles from './Home.module.css';
+import styles from './Auth.module.css';
 
-const HomePage = () => {
+const RegisterPage = () => {
     return (
         <div className="container">
             <h2 className="head-title text-primary">Buat Akun</h2>
@@ -31,4 +31,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default RegisterPage;

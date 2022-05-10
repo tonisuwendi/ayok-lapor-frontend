@@ -61,6 +61,6 @@ code {
 
 @media screen and (max-width: 550px) {
     .container {
-        padding: 25px 20px;
+        padding: 30px 25px;
     }
 }

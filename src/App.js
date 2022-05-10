@@ -1,11 +1,11 @@
-import HomePage from "./pages/Home";
-import Routes from "./config/routes";
+import { BrowserRouter } from 'react-router-dom';
+import RoutesConfig from "./config/routes";
 
 const App = () => {
 	return (
-		<Routes>
-			<HomePage />
-		</Routes>
+		<BrowserRouter>
+			<RoutesConfig />
+		</BrowserRouter>
 	)
 };
 

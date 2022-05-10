@@ -1,17 +1,17 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import HomePage from '../pages/Home';
+import { Routes, Route } from 'react-router-dom';
 import Layout from '../components/Layout';
+import RegisterPage from '../pages/Auth/Register';
+import LoginPage from '../pages/Auth/Login';
 
-const Routes = () => {
+const RoutesConfig = () => {
     return (
-        <BrowserRouter>
-            <Switch>
-                <Layout>
-                    <Route path="/" component={HomePage} />
-                </Layout>
-            </Switch>
-        </BrowserRouter>
+        <Layout>
+            <Routes>
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/register" element={<RegisterPage />} />
+            </Routes>
+        </Layout>
     )
 };
 
-export default Routes;
+export default RoutesConfig;
